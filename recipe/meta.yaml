@@ -1,6 +1,6 @@
 {% set name = "dustmaps" %}
-{% set version = "1.0.3" %}
-{% set sha256 = "6380582a60c40187c26c5d8795ed20d74bf4614069f470a286bdc02625d209e8" %}
+{% set version = "1.0.4" %}
+{% set sha256 = "5d5d06e016ee914f55eecf0e4e5eabd74648bc2880ef7997568be329bad4b4a2" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
   skip: True  # [win]
 
