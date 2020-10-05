@@ -1,6 +1,6 @@
 {% set name = "dustmaps" %}
-{% set version = "1.0.4" %}
-{% set sha256 = "5d5d06e016ee914f55eecf0e4e5eabd74648bc2880ef7997568be329bad4b4a2" %}
+{% set version = "1.0.5" %}
+{% set sha256 = "b58bb51e262762349a2071bdada26e3457c60ea078c807765bd5ac8c329ba61a" %}
 
 package:
   name: {{ name|lower }}
@@ -12,8 +12,8 @@ source:
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
-  skip: True  # [win]
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+  skip: true  # [win]
 
 requirements:
   build:
@@ -38,7 +38,7 @@ about:
   home: https://github.com/gregreen/dustmaps
   license: GPL-2.0
   license_file: LICENSE.txt
-  summary: 'A uniform interface for a number of 2D and 3D maps of interstellar dust reddening/extinction.'
+  summary: A uniform interface for a number of 2D and 3D maps of interstellar dust reddening/extinction.
   doc_url: http://dustmaps.readthedocs.io/
   dev_url: https://github.com/gregreen/dustmaps
 
