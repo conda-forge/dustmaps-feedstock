@@ -5,11 +5,13 @@ Home: https://github.com/gregreen/dustmaps
 
 Package license: GPL-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dustmaps-feedstock/blob/master/LICENSE.txt)
 
 Summary: A uniform interface for a number of 2D and 3D maps of interstellar dust reddening/extinction.
 
+Development: https://github.com/gregreen/dustmaps
 
+Documentation: http://dustmaps.readthedocs.io/
 
 Current build status
 ====================
