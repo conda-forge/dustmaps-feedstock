@@ -39,7 +39,7 @@ test:
 
 about:
   home: https://github.com/gregreen/dustmaps
-  license: GPL-2.0
+  license: GPL-2.0-or-later
   license_file: LICENSE.txt
   summary: A uniform interface for a number of 2D and 3D maps of interstellar dust reddening/extinction.
   doc_url: http://dustmaps.readthedocs.io/
