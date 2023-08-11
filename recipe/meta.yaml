@@ -1,6 +1,6 @@
 {% set name = "dustmaps" %}
-{% set version = "1.0.11" %}
-{% set sha256 = "1b45f179dbd9d3d6c17a222b50fcf5c29aeb680d306e5e6d99dd88d748c22956" %}
+{% set version = "1.0.12" %}
+{% set sha256 = "2c0f4fe489a28f7190da67ad03bd59d2fe0772d5992eb20fa42c4533ed943a94" %}
 
 package:
   name: {{ name|lower }}
