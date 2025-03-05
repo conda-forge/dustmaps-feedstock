@@ -1,17 +1,17 @@
 {% set name = "dustmaps" %}
-{% set version = "1.0.13" %}
-{% set sha256 = "895b4df742f1d7d4ec2d010cc11d42eb33fd3681ece2b348d1e511d182898206" %}
+{% set version = "1.0.14" %}
+{% set sha256 = "51347809dcd186d14c4f88c7856bb11a931bc422e8f57774e9c90d19e76c43cf" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
   skip: true  # [win]
 
